@@ -21,7 +21,7 @@ Note: these numbers are approximate. No attempt was made to model the isotopic d
 
 ![slide 3](images/Slide3.png)
 
-The C-13 and N-15 isotopically enriched atoms used to substitute the natural carbon and nitrogen atoms are probably 99% pure. That means that they have about 1% C-12 and N-14, respectively. This creates kind of an inverse isotopic distribution for the C-series tags where the heavies tags contribute more to the "N-1" tags that the light tags do. This is seen in the top row.
+The C-13 and N-15 isotopically enriched atoms used to substitute the natural carbon and nitrogen atoms are probably 99% pure. That means that they have about 1% C-12 and N-14, respectively. This creates kind of an inverse isotopic distribution for the C-series tags where the heavies tags contribute more to the "N-1" tags than the light tags do. This is seen in the top row.
 
 The situation for the N-series tags is more complicated. The have a mixture of C-13 atoms and one N-15 atom. Most of the "N-1" intensity crosstalk stays in the N-series (from the C-13 atoms). However, the delta-delta masses of the N- and C-series tags are 6 milliDa different. The N-15 atom crosstalks into the "N-1" C-series tag. There is a little scrambling between the N- and C-series, as shown in the bottom row.
 
@@ -37,7 +37,7 @@ If you need more dynamic range for accuracy at larger fold-changes, you can crea
 
 ![slide 5](images/Slide5.png)
 
-We can compute how much of each tag's peak area comes from that actual tag. We see that all of the middle tags are similar and have more crosstalk issues that the tags at either end of the tag masses. There is nothing lighter than 126C and 127 that can add to their intensities, so the crosstalk is only from heavier tags. Conversely, there are no heavier tags than 134C and 135N and the crosstalk only comes from lighter tags.
+We can compute how much of each tag's peak area comes from that actual tag. We see that all of the middle tags are similar and have more crosstalk issues than the tags at either end of the tag masses. There is nothing lighter than 126C and 127 that can add to their intensities, so the crosstalk is only from heavier tags. Conversely, there are no heavier tags than 134C and 135N and the crosstalk only comes from lighter tags.
 
 ---
 
@@ -49,9 +49,9 @@ If we mixed samples in amounts such that the monoisotopic peak of each tag was 1
 
 ![slide 7](images/Slide7.png)
 
-We can combine the purity and total relative intensity information into this stacked bar plot where each tag has a different color. We see that the purity of the two lightest tags and the two heaviest tags are higher that the middle tags. Because less crosstalk contributes to the total intensity for the two lightest and two heaviest tags, they have reduced relative intensity totals.
+We can combine the purity and total relative intensity information into this stacked bar plot where each tag has a different color. We see that the purity of the two lightest tags and the two heaviest tags are higher than the middle tags. Because less crosstalk contributes to the total intensity for the two lightest and two heaviest tags, they have reduced relative intensity totals.
 
-I do not try to deconvolute tag intensities based on the measured tag isotopic distributions (the numbers in the spec sheets). That is more complicated than early algorithms were designed to handle because of the N-series tags. I just assume (and live with) the fact that large fold changes may be less accurate. It is safer to understand measurement limits (provided they are still usable) than to make corrections that may be error prone (noisy values, missing values). 
+I do not try to deconvolute tag intensities based on the measured tag isotopic distributions (the numbers in the spec sheets). That is more complicated than early algorithms were designed to handle because of the N-series tags. I just assume (and live with) the fact that large fold changes may be less accurate. It is safer to understand measurement limits (provided they are still usable) than to make corrections that may be error prone (noisy values, missing values).
 
 ---
 
