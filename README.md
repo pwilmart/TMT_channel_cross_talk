@@ -23,7 +23,7 @@ Note: these numbers are approximate. No attempt was made to model the isotopic d
 
 The C-13 and N-15 isotopically enriched atoms used to substitute the natural carbon and nitrogen atoms are probably 99% pure. That means that they have about 1% C-12 and N-14, respectively. This creates kind of an inverse isotopic distribution for the C-series tags where the heavies tags contribute more to the "N-1" tags than the light tags do. This is seen in the top row.
 
-The situation for the N-series tags is more complicated. The have a mixture of C-13 atoms and one N-15 atom. Most of the "N-1" intensity crosstalk stays in the N-series (from the C-13 atoms). However, the delta-delta masses of the N- and C-series tags are 6 milliDa different. The N-15 atom crosstalks into the "N-1" C-series tag. There is a little scrambling between the N- and C-series, as shown in the bottom row.
+The situation for the N-series tags is more complicated. They have a mixture of C-13 atoms and one N-15 atom. Most of the "N-1" intensity crosstalk stays in the N-series (from the C-13 atoms). However, the delta-delta masses of the N- and C-series tags are 6 milliDa different. The N-15 atom crosstalks into the "N-1" C-series tag. There is a little scrambling between the N- and C-series, as shown in the bottom row.
 
 ---
 
